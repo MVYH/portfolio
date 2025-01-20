@@ -83,7 +83,7 @@ footer {
     text-align: center;
     color: #fff;
     position: relative;
-    overflow: hidden;
+    overflow: auto;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     transition: transform 0.3s ease;
 }
@@ -107,7 +107,7 @@ footer {
 .progress-bar {
     background: #444;
     border-radius: 20px;
-    overflow: hidden;
+    overflow: auto;
     height: 10px;
     width: 100%;
     margin-top: 10px;
@@ -145,7 +145,7 @@ footer {
 .terminal-window {
     background: #1a1a1a;
     border-radius: 8px;
-    overflow: hidden;
+    overflow: auto;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
 }
 
@@ -226,7 +226,7 @@ footer {
     background: #e0e0e0;
     height: 20px;
     border-radius: 10px;
-    overflow: hidden;
+    overflow: auto;
     position: relative;
 }
 
@@ -250,7 +250,7 @@ body {
     font-family: 'Courier New', Courier, monospace;
     color: #0f0;
     background: #000; /* Fallback for unsupported animations */
-    overflow-x: hidden;
+    overflow-x: auto;
     position: relative;
 }
 
@@ -322,7 +322,7 @@ body {
     font-family: 'Courier New', Courier, monospace;
     color: #0f0;
     background: black; /* Fallback for unsupported browsers */
-    overflow: hidden;
+    overflow: auto;
 }
 /* Make the canvas cover the entire viewport but allow scrolling */
 canvas {
@@ -340,7 +340,7 @@ body {
     font-family: 'Courier New', Courier, monospace;
     color: #0f0;
     background: black; /* Fallback for unsupported browsers */
-    overflow-x: hidden; /* Disable horizontal scrolling */
+    overflow-x: auto; /* Disable horizontal scrolling */
     height: 100%; /* Ensure full height */
     position: relative; /* Allows normal scrolling */
 }
